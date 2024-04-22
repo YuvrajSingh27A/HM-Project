@@ -10,6 +10,7 @@ const App = () => {
     };
 
     return (
+    // this is the section
         <section className="bg-emerald-500 flex items-center justify-center h-screen">
             <div>
                 <div className="w-80 flex flex-col gap-4 rounded-lg p-4">

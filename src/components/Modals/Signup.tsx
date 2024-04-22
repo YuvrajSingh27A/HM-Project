@@ -47,7 +47,7 @@ const AuthComponent = () => {
             const newUserCredential = await createUserWithEmailAndPassword(inputs.email, inputs.password);
             const user = newUserCredential.user;
 
-            // Send email verification
+            // Send email veification
             await sendEmailVerification(user);
             toast.info("Email verification link sent! Please verify your email to complete registration.", { position: "top-center" });
 
