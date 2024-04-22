@@ -12,7 +12,7 @@ const firebaseConfig = {
   appId: "1:560024993874:web:3cb029d03363a338849f8b"
 };
 
-// Check if Firebase app is already initialized
+// Check if Firebase app i already initialized
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
 const auth = getAuth(app);

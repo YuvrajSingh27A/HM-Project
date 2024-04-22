@@ -22,7 +22,7 @@ const ProblemsTable: React.FC<ProblemsTableProps> = ({ setLoadingProblems }) => 
 	console.log(problems);
 	
 	const solvedProblems = useGetSolvedProblems();
-	// console.log("solvedProbems", solvedProblems);
+	// console.log("solvedProbms", solvedProblems);
 	const closeModal = () => {
 		setYoutubePlayer({ isOpen: false, videoId: "" });
 	};

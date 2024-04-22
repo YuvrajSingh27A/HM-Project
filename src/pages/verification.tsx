@@ -6,7 +6,7 @@ import { applyActionCode } from "firebase/auth";
 
 const VerificationPage: React.FC = () => {
   const router = useRouter();
-  const { actionCode } = router.query; // Retrieve the action code from the URL query parameter
+  const { actionCode } = router.query; // Retrieve the acion code from the URL query parameter
 
   useEffect(() => {
     if (actionCode && typeof actionCode === "string") {
